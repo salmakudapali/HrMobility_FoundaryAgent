@@ -1,0 +1,16 @@
+variant,canonical
+SRE,Site Reliability Engineering
+DevOps,Site Reliability Engineering
+Observability,Monitoring & Observability
+Grafana,Monitoring & Observability
+Prometheus,Monitoring & Observability
+API Docs,Technical Writing
+Docs-as-Code,Technical Writing
+A/B Testing,Experimentation
+Experiment Design,Experimentation
+Cost Optimization,FinOps
+WCAG,Accessibility
+Threat Modeling,Application Security
+AppSec,Application Security
+CI/CD,CI/CD
+K8s,Kubernetes

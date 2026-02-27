@@ -1,0 +1,13 @@
+gig_id,title,department,location_preference,remote_allowed,duration_weeks,time_percent,required_skills,nice_to_have_skills,description,deliverable
+G001,Build Developer Portal MVP,Platform,Bengaluru,Yes,6,30,"React|TypeScript|API Docs|Docs-as-Code","Node.js|Docusaurus","Internal portal for APIs, runbooks, and onboarding docs","Working portal + 10 key API pages"
+G002,FinOps Cost Dashboard,Cloud,Hyderabad,Yes,5,20,"AWS|Cost Optimization|SQL|Dashboards","Python|Looker","Create a weekly cost visibility dashboard and anomaly alerts","Cost dashboard + alert thresholds"
+G003,Experimentation Quality Review,Data,Hyderabad,Yes,4,20,"A/B Testing|Statistics|Experiment Design","Causal Inference","Audit experiment setup quality and build a checklist","Experiment QA checklist + examples"
+G004,Accessibility Audit for Web App,Design,Bengaluru,Yes,3,15,"Accessibility|HTML|CSS|WCAG","React","Audit key flows and propose fixes with dev-ready guidance","Audit report + prioritized backlog"
+G005,Support Ticket Auto-Triage Pilot,ML,Bengaluru,Yes,6,25,"Python|NLP|Labeling Strategy|Model Monitoring","Zendesk|Prompting","Prototype triage for support tickets and routing","Pilot model + evaluation report"
+G006,Test Automation Framework Upgrade,Quality,Pune,Yes,5,25,"Test Automation|API Testing|Framework Design","CI/CD","Improve reliability and speed of test suite","Updated framework + CI pipeline changes"
+G007,Security Threat Modeling Workshop Pack,Security,Bengaluru,Yes,2,10,"Threat Modeling|AppSec Basics|Communication","OWASP ASVS","Create a reusable workshop and templates for squads","Workshop deck + templates"
+G008,Onboarding Journey Rewrite,Product,Mumbai,Yes,4,20,"Funnel Analysis|Product Analytics|Storytelling","UX Research","Identify onboarding friction and propose improvements","Insights doc + prioritized experiments"
+G009,Mobile Platform Component Library,Mobile,Bengaluru,No,6,20,"Kotlin|Android|Design Systems","Performance","Build shared UI components and guidelines","Component library + usage docs"
+G010,Reliability Runbook Standardization,SRE,Bengaluru,Yes,4,20,"Incident Response|Runbooks|Observability","Kubernetes","Standardize runbooks and alert playbooks across services","Runbook templates + 5 service runbooks"
+G011,Analytics Engineering Metrics Layer,Data,Pune,Yes,6,30,"dbt|SQL|Data Modeling|Data Quality","Snowflake","Create a metrics layer for core KPIs","dbt models + data tests + documentation"
+G012,CRM Automation for Sales Ops,RevOps,Gurugram,Yes,4,20,"Salesforce|Process Improvement|CRM Hygiene","Python|APIs","Automate lead routing and data quality checks","Flow/spec + automation prototype"

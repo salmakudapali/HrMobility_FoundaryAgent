@@ -1,0 +1,17 @@
+course_id,title,provider,skill_tags,difficulty,duration_hours,format
+C001,dbt Fundamentals,Internal L&D,"dbt|SQL|Data Modeling",Beginner,6,Video
+C002,Practical Threat Modeling,Internal L&D,"Threat Modeling|AppSec Basics",Intermediate,4,Workshop
+C003,FinOps for Engineers,External,"Cost Optimization|AWS",Beginner,5,Video
+C004,Observability with Prometheus/Grafana,Internal L&D,"Observability|Prometheus|Grafana",Intermediate,6,Hands-on
+C005,Accessibility for Product Teams,External,"Accessibility|WCAG|UX",Beginner,3,Video
+C006,Experimentation Design Clinic,Internal L&D,"A/B Testing|Statistics|Experiment Design",Intermediate,4,Workshop
+C007,Developer Portal Patterns,External,"Developer Experience|Docs-as-Code",Intermediate,4,Article
+C008,CI/CD with GitHub Actions,Internal L&D,"CI/CD|GitHub Actions",Beginner,3,Hands-on
+C009,Kubernetes Administration (CKA prep),External,"Kubernetes|Linux",Advanced,20,Course
+C010,Practical NLP for Ticket Triage,External,"NLP|Python|Prompting",Intermediate,8,Course
+C011,Analytics Storytelling,Internal L&D,"Storytelling|Dashboards",Beginner,3,Workshop
+C012,Salesforce Flows Essentials,External,"Salesforce|Automation",Beginner,4,Video
+C013,Go for Reliability Tooling,External,"Go|Distributed Systems",Intermediate,10,Course
+C014,Writing Great API Docs,Internal L&D,"Technical Writing|API Docs",Beginner,3,Workshop
+C015,System Design Interview Lite,Internal L&D,"System Design|Microservices",Intermediate,6,Workshop
+C016,Leadership: Influencing Without Authority,Internal L&D,"Stakeholder Management|Negotiation",Beginner,3,Workshop

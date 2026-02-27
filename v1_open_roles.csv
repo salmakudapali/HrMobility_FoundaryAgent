@@ -1,0 +1,9 @@
+role_id,title,department,level,location,remote_allowed,required_skills,nice_to_have_skills,role_summary
+R001,Platform Engineer,Platform,L3,Bengaluru,Yes,"Kubernetes|Terraform|CI/CD|Linux","Go|Observability","Build internal developer platform capabilities and automation"
+R002,Analytics Engineer,Data,L3,Pune,Yes,"SQL|dbt|Data Modeling|Data Quality","Snowflake|Looker","Own curated datasets and metrics for product and business"
+R003,Technical Account Manager,Customer Success,L3,Gurugram,No,"Customer Communication|Technical Troubleshooting|Stakeholder Management","APIs|SaaS","Own post-sales success for strategic accounts"
+R004,UX Researcher,Design,L3,Bengaluru,Yes,"UX Research|Interviewing|Synthesis","Experiment Design","Run continuous discovery and inform product decisions"
+R005,Security Engineer (DevSecOps),Security,L3,Bengaluru,Yes,"Threat Modeling|CI/CD|AppSec|Cloud Security","Terraform|Kubernetes","Shift-left security and build guardrails"
+R006,Developer Advocate (India),DevRel,L3,Bengaluru,Yes,"Technical Writing|Public Speaking|API Knowledge","Video Creation","Create content and enable external & internal developers"
+R007,SRE (Observability),SRE,L4,Bengaluru,Yes,"Observability|Distributed Systems|Incident Command","Grafana|Prometheus","Improve monitoring, alerting, and reliability practices"
+R008,Product Manager (Onboarding),Product,L3,Mumbai,Yes,"Product Thinking|Funnel Analysis|Experimentation","UX Research","Own onboarding roadmap and activation metrics"

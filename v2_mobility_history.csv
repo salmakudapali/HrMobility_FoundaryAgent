@@ -1,0 +1,9 @@
+event_id,employee_id,event_type,target_type,target_id,event_date,outcome,reason_declined,notes
+MH0001,E006,Applied,Role,R008,2025-11-14,Declined,Timing,"Role opened during peak quarterly planning"
+MH0002,E006,Applied,Gig,G008,2025-12-02,Accepted,,"Joined onboarding insights gig (20%)"
+MH0003,E005,Applied,Role,R007,2025-10-21,Declined,Manager Block,"Manager requested delay until after migration milestone"
+MH0004,E005,Applied,Gig,G010,2025-11-05,Accepted,,"Contributed to runbook standardization"
+MH0005,E007,Applied,Role,R003,2025-12-10,Declined,Eligibility,"Tenure < 12 months policy"
+MH0006,E011,Applied,Gig,G001,2025-12-01,Accepted,,"Built portal UI components remotely"
+MH0007,E003,Applied,Role,R002,2025-09-18,Declined,Skill Gap,"Needed dbt experience; suggested learning plan"
+MH0008,E003,Applied,Gig,G011,2025-10-05,Accepted,,"Worked on metrics layer with Aditya"
