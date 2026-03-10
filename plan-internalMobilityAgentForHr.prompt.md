@@ -1,40 +1,5 @@
 # Azure AI Foundry Mobility Agent — 5-Day Hackathon Plan
 
-## TL;DR
-
-Build an **Internal Mobility "Opportunity Broker" Agent** using Azure AI Foundry portal (no local code). The agent takes an employee profile, matches them to internal gigs/roles via RAG over your CSV data (indexed in Azure AI Search), and generates growth plans + manager briefs using GPT-4o orchestrated in Prompt Flow. The 5-day plan compresses the original 7-day MVP, prioritizing demo-ready outputs. Data gaps (v2/v3 schemas are mostly empty) must be filled on Day 1 using the generation recipe in the markdown.
-
-## Key Findings from Data Research
-
-### Usable data now
-| File | Rows | Columns |
-|---|---|---|
-| `v1_employees.csv` | 24 | 16 |
-| `v1_internal_gigs.csv` | 12 | 11 |
-| `v1_open_roles.csv` | 8 | 9 |
-| `v1_learning_catalog.csv` | 16 | 7 |
-| `v1_skill_synonyms.csv` | 15 | 2 |
-
-### Schema-only (no data — need generation)
-| File | Columns | New Fields vs v1 |
-|---|---|---|
-| `v2_employees.csv` | 22 | `pay_band`, `last_promotion_months_ago`, `manager_release_friction_1to5`, `aspiration_level`, `aspiration_track`, `flight_risk_1to5`, `mobility_eligibility` |
-| `v2_internal_gigs.csv` | 13 | `time_zone_overlap`, `sensitive_team` |
-| `v2_open_roles.csv` | 12 | `pay_band_min`, `pay_band_max`, `interview_complexity` |
-
-### Partial data
-| File | Rows | Notes |
-|---|---|---|
-| `v3_employees.csv` | 12 | Enriched with v2 schema (22 cols), first 12 employees only |
-| `v2_mobility_history.csv` | 8 | 4 Accepted, 4 Declined (reasons: Timing, Manager Block, Eligibility, Skill Gap) |
-
-### Critical observations
-- v2/v3 schemas add HR-critical fields (`pay_band`, `flight_risk`, `mobility_eligibility`, `manager_release_friction`) essential for a compelling demo
-- 10 demo personas in `internal_mobility_agent_for_hr.md` are pre-mapped to expected matches — these become evaluation ground truth
-- Skill synonyms (15 rows) enable normalization layer critical for matching (e.g., "SRE" ↔ "DevOps" → "Site Reliability Engineering")
-
----
-
 ## Day 1: Azure AI Foundry Setup + Data Preparation
 
 ### Step 1.1 — Create Azure AI Foundry Hub & Project
@@ -311,3 +276,4 @@ Use the model from the project brief:
 | Azure App Service | Chat web app deployment | Basic B1 (demo only) |
 | Azure AI Content Safety | Guardrails for bias/PII filtering | Standard |
 | Azure Key Vault | Secrets management | Standard (auto-provisioned) |
+
